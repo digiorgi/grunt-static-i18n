@@ -111,4 +111,4 @@ Name of your po files: `locale/<lang>/LC_MESSAGES/<textDomain>.po`
 Run `grunt && open coverage.html`
 
 ## License
-Copyright (c) 2014 Douglas Beck. Licensed under the MIT license.
+MIT. Read the LICENSE file

@@ -104,8 +104,9 @@ module.exports = function statici18n(grunt) {
 
   var translate = function(filepath) {
     var translated = false;
-    // json files do not require gettext to return quoted translations
-    gt.quoteText = path.extname(filepath) !== '.json';
+    // do not require gettext to return quoted translations
+    // is more general if you put the quotes in the source code
+    gt.quoteText = false;
     var compiled = compileTemplate(filepath);
     if (!compiled) {
       return false;

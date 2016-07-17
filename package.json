@@ -1,14 +1,10 @@
 {
-  "name": "grunt-static-i18n",
+  "name": "hernanex3-grunt-static-i18n",
   "version": "0.3.3",
   "description": "Grunt plugin to translate static assets.",
-  "homepage": "https://github.com/beck/grunt-static-i18n",
-  "repository": "https://github.com/beck/grunt-static-i18n",
-  "author": "Doug Beck <doug@douglasbeck.com>",
-  "contributors": [
-    "Stefano Rivera <stefano@rivera.za.net>",
-    "Yola Engineering <engineering@yola.com>"
-  ],
+  "homepage": "https://github.com/hernanex3/grunt-static-i18n",
+  "repository": "https://github.com/hernanex3/grunt-static-i18n",
+  "author": "Hernan Di Giorgi",
   "keywords": [
     "gruntplugin"
   ],
